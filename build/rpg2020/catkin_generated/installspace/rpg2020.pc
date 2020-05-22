@@ -1,0 +1,8 @@
+prefix=/home/geek2000/catkin_ws/install
+
+Name: rpg2020
+Description: Description of rpg2020
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

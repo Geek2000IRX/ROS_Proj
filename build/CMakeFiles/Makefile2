@@ -3163,6 +3163,24 @@ clean: robot_setup_tf/CMakeFiles/turtlesim_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory rpg2020
+
+# Convenience name for "all" pass in the directory.
+rpg2020/all:
+
+.PHONY : rpg2020/all
+
+# Convenience name for "clean" pass in the directory.
+rpg2020/clean:
+
+.PHONY : rpg2020/clean
+
+# Convenience name for "preinstall" pass in the directory.
+rpg2020/preinstall:
+
+.PHONY : rpg2020/preinstall
+
+#=============================================================================
 # Directory level rules for directory learning_tf
 
 # Convenience name for "all" pass in the directory.

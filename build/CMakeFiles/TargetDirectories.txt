@@ -175,6 +175,13 @@
 /home/geek2000/catkin_ws/build/robot_setup_tf/CMakeFiles/edit_cache.dir
 /home/geek2000/catkin_ws/build/robot_setup_tf/CMakeFiles/turtlesim_generate_messages_py.dir
 /home/geek2000/catkin_ws/build/robot_setup_tf/CMakeFiles/rebuild_cache.dir
+/home/geek2000/catkin_ws/build/rpg2020/CMakeFiles/install/strip.dir
+/home/geek2000/catkin_ws/build/rpg2020/CMakeFiles/edit_cache.dir
+/home/geek2000/catkin_ws/build/rpg2020/CMakeFiles/list_install_components.dir
+/home/geek2000/catkin_ws/build/rpg2020/CMakeFiles/test.dir
+/home/geek2000/catkin_ws/build/rpg2020/CMakeFiles/install/local.dir
+/home/geek2000/catkin_ws/build/rpg2020/CMakeFiles/rebuild_cache.dir
+/home/geek2000/catkin_ws/build/rpg2020/CMakeFiles/install.dir
 /home/geek2000/catkin_ws/build/learning_tf/CMakeFiles/install/strip.dir
 /home/geek2000/catkin_ws/build/learning_tf/CMakeFiles/install.dir
 /home/geek2000/catkin_ws/build/learning_tf/CMakeFiles/turtle_tf_listener.dir
