@@ -1,0 +1,2 @@
+beginner_tutorials:learning_tf:r2d2:robot_setup_tf:testbot_description:using_markers
+-DCATKIN_DEVEL_PREFIX=/home/geek2000/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/geek2000/catkin_ws/install -G Unix Makefiles
