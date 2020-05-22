@@ -101,18 +101,6 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -135,16 +123,28 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/geek2000/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/geek2000/catkin_ws/build/CMakeFiles /home/geek2000/catkin_ws/build/rpg2020/CMakeFiles/progress.marks
-	cd /home/geek2000/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rpg2020/all
+	cd /home/geek2000/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/geek2000/catkin_ws/build/CMakeFiles /home/geek2000/catkin_ws/build/mrobot_description/CMakeFiles/progress.marks
+	cd /home/geek2000/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mrobot_description/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/geek2000/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/geek2000/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rpg2020/clean
+	cd /home/geek2000/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mrobot_description/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,12 +154,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/geek2000/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rpg2020/preinstall
+	cd /home/geek2000/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mrobot_description/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/geek2000/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rpg2020/preinstall
+	cd /home/geek2000/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mrobot_description/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -168,19 +168,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-rpg2020/CMakeFiles/rpg2020_xacro_generated_to_devel_space_.dir/rule:
-	cd /home/geek2000/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rpg2020/CMakeFiles/rpg2020_xacro_generated_to_devel_space_.dir/rule
-.PHONY : rpg2020/CMakeFiles/rpg2020_xacro_generated_to_devel_space_.dir/rule
+mrobot_description/CMakeFiles/mrobot_description_xacro_generated_to_devel_space_.dir/rule:
+	cd /home/geek2000/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mrobot_description/CMakeFiles/mrobot_description_xacro_generated_to_devel_space_.dir/rule
+.PHONY : mrobot_description/CMakeFiles/mrobot_description_xacro_generated_to_devel_space_.dir/rule
 
 # Convenience name for target.
-rpg2020_xacro_generated_to_devel_space_: rpg2020/CMakeFiles/rpg2020_xacro_generated_to_devel_space_.dir/rule
+mrobot_description_xacro_generated_to_devel_space_: mrobot_description/CMakeFiles/mrobot_description_xacro_generated_to_devel_space_.dir/rule
 
-.PHONY : rpg2020_xacro_generated_to_devel_space_
+.PHONY : mrobot_description_xacro_generated_to_devel_space_
 
 # fast build rule for target.
-rpg2020_xacro_generated_to_devel_space_/fast:
-	cd /home/geek2000/catkin_ws/build && $(MAKE) -f rpg2020/CMakeFiles/rpg2020_xacro_generated_to_devel_space_.dir/build.make rpg2020/CMakeFiles/rpg2020_xacro_generated_to_devel_space_.dir/build
-.PHONY : rpg2020_xacro_generated_to_devel_space_/fast
+mrobot_description_xacro_generated_to_devel_space_/fast:
+	cd /home/geek2000/catkin_ws/build && $(MAKE) -f mrobot_description/CMakeFiles/mrobot_description_xacro_generated_to_devel_space_.dir/build.make mrobot_description/CMakeFiles/mrobot_description_xacro_generated_to_devel_space_.dir/build
+.PHONY : mrobot_description_xacro_generated_to_devel_space_/fast
 
 # Help Target
 help:
@@ -192,10 +192,10 @@ help:
 	@echo "... install/local"
 	@echo "... test"
 	@echo "... list_install_components"
-	@echo "... rpg2020_xacro_generated_to_devel_space_"
-	@echo "... install"
+	@echo "... mrobot_description_xacro_generated_to_devel_space_"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... install"
 .PHONY : help
 
 

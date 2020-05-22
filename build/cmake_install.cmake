@@ -144,6 +144,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/geek2000/catkin_ws/build/learning_tf/cmake_install.cmake")
   include("/home/geek2000/catkin_ws/build/testbot_description/cmake_install.cmake")
   include("/home/geek2000/catkin_ws/build/using_markers/cmake_install.cmake")
+  include("/home/geek2000/catkin_ws/build/mrobot_description/cmake_install.cmake")
 
 endif()
 

@@ -421,7 +421,7 @@ learning_tf_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/learning_tf
 learning_tf_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/learning_tf
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libtf2.so
+lib:FILEPATH=/opt/ros/melodic/lib/librosconsole_bridge.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
@@ -431,6 +431,12 @@ message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
+
+//Value Computed by CMake
+mrobot_description_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/mrobot_description
+
+//Value Computed by CMake
+mrobot_description_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/mrobot_description
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
@@ -530,6 +536,9 @@ using_markers_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/using_markers
 
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/melodic/share/visualization_msgs/cmake
+
+//The directory containing a CMake configuration file for xacro.
+xacro_DIR:PATH=/opt/ros/melodic/share/xacro/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
@@ -644,7 +653,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
