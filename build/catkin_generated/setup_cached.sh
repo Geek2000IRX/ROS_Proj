@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD="/home/geek2000/catkin_ws/build"
-export PYTHONPATH="/home/geek2000/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
