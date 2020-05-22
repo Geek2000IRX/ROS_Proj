@@ -291,6 +291,42 @@ actionlib_DIR:PATH=/opt/ros/melodic/share/actionlib/cmake
 actionlib_msgs_DIR:PATH=/opt/ros/melodic/share/actionlib_msgs/cmake
 
 //Value Computed by CMake
+arbotix_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/arbotix_ros/arbotix
+
+//Value Computed by CMake
+arbotix_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/arbotix_ros/arbotix
+
+//Value Computed by CMake
+arbotix_controllers_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/arbotix_ros/arbotix_controllers
+
+//Value Computed by CMake
+arbotix_controllers_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/arbotix_ros/arbotix_controllers
+
+//Value Computed by CMake
+arbotix_firmware_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/arbotix_ros/arbotix_firmware
+
+//Value Computed by CMake
+arbotix_firmware_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/arbotix_ros/arbotix_firmware
+
+//Value Computed by CMake
+arbotix_msgs_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/arbotix_ros/arbotix_msgs
+
+//Value Computed by CMake
+arbotix_msgs_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/arbotix_ros/arbotix_msgs
+
+//Value Computed by CMake
+arbotix_python_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/arbotix_ros/arbotix_python
+
+//Value Computed by CMake
+arbotix_python_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/arbotix_ros/arbotix_python
+
+//Value Computed by CMake
+arbotix_sensors_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/arbotix_ros/arbotix_sensors
+
+//Value Computed by CMake
+arbotix_sensors_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/arbotix_ros/arbotix_sensors
+
+//Value Computed by CMake
 beginner_tutorials_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/beginner_tutorials
 
 //Value Computed by CMake
@@ -602,7 +638,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

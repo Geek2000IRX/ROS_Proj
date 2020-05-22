@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/geek2000/CLionProjects/ROS_Proj/catkin_ws/build"
+export PWD="/home/geek2000/catkin_ws/build"
+export PYTHONPATH="/home/geek2000/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
