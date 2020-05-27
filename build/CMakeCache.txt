@@ -290,6 +290,9 @@ actionlib_DIR:PATH=/opt/ros/melodic/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/melodic/share/actionlib_msgs/cmake
 
+//The directory containing a CMake configuration file for angles.
+angles_DIR:PATH=/opt/ros/melodic/share/angles/cmake
+
 //Value Computed by CMake
 arbotix_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/arbotix_ros/arbotix
 
@@ -332,14 +335,56 @@ beginner_tutorials_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/beginner_tut
 //Value Computed by CMake
 beginner_tutorials_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/beginner_tutorials
 
+//The directory containing a CMake configuration file for bond.
+bond_DIR:PATH=/opt/ros/melodic/share/bond/cmake
+
+//The directory containing a CMake configuration file for bondcpp.
+bondcpp_DIR:PATH=/opt/ros/melodic/share/bondcpp/cmake
+
+//The directory containing a CMake configuration file for camera_calibration_parsers.
+camera_calibration_parsers_DIR:PATH=/opt/ros/melodic/share/camera_calibration_parsers/cmake
+
+//The directory containing a CMake configuration file for camera_info_manager.
+camera_info_manager_DIR:PATH=/opt/ros/melodic/share/camera_info_manager/cmake
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/melodic/share/class_loader/cmake
 
+//The directory containing a CMake configuration file for control_msgs.
+control_msgs_DIR:PATH=/opt/ros/melodic/share/control_msgs/cmake
+
+//The directory containing a CMake configuration file for control_toolbox.
+control_toolbox_DIR:PATH=/opt/ros/melodic/share/control_toolbox/cmake
+
+//The directory containing a CMake configuration file for controller_interface.
+controller_interface_DIR:PATH=/opt/ros/melodic/share/controller_interface/cmake
+
+//The directory containing a CMake configuration file for controller_manager.
+controller_manager_DIR:PATH=/opt/ros/melodic/share/controller_manager/cmake
+
+//The directory containing a CMake configuration file for controller_manager_msgs.
+controller_manager_msgs_DIR:PATH=/opt/ros/melodic/share/controller_manager_msgs/cmake
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for dynamic_reconfigure.
+dynamic_reconfigure_DIR:PATH=/opt/ros/melodic/share/dynamic_reconfigure/cmake
+
+//The directory containing a CMake configuration file for gazebo_msgs.
+gazebo_msgs_DIR:PATH=/opt/ros/melodic/share/gazebo_msgs/cmake
+
+//The directory containing a CMake configuration file for gazebo_plugins.
+gazebo_plugins_DIR:PATH=/opt/ros/melodic/share/gazebo_plugins/cmake
+
+//The directory containing a CMake configuration file for gazebo_ros.
+gazebo_ros_DIR:PATH=/opt/ros/melodic/share/gazebo_ros/cmake
+
+//The directory containing a CMake configuration file for gazebo_ros_control.
+gazebo_ros_control_DIR:PATH=/opt/ros/melodic/share/gazebo_ros_control/cmake
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake
@@ -411,8 +456,17 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//The directory containing a CMake configuration file for hardware_interface.
+hardware_interface_DIR:PATH=/opt/ros/melodic/share/hardware_interface/cmake
+
+//The directory containing a CMake configuration file for image_transport.
+image_transport_DIR:PATH=/opt/ros/melodic/share/image_transport/cmake
+
 //The directory containing a CMake configuration file for interactive_markers.
 interactive_markers_DIR:PATH=/opt/ros/melodic/share/interactive_markers/cmake
+
+//The directory containing a CMake configuration file for joint_limits_interface.
+joint_limits_interface_DIR:PATH=/opt/ros/melodic/share/joint_limits_interface/cmake
 
 //Value Computed by CMake
 learning_tf_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/learning_tf
@@ -422,6 +476,24 @@ learning_tf_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/learning_tf
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/librosconsole_bridge.so
+
+//Value Computed by CMake
+mbot_description_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/mbot_description
+
+//Value Computed by CMake
+mbot_description_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/mbot_description
+
+//Value Computed by CMake
+mbot_gazebo_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/mbot_gazebo
+
+//Value Computed by CMake
+mbot_gazebo_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/mbot_gazebo
+
+//Value Computed by CMake
+mbot_teleop_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/mbot_teleop
+
+//Value Computed by CMake
+mbot_teleop_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/mbot_teleop
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
@@ -438,6 +510,18 @@ mrobot_description_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/mrobot_descr
 //Value Computed by CMake
 mrobot_description_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/mrobot_description
 
+//Value Computed by CMake
+mrobot_teleop_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/mrobot_teleop
+
+//Value Computed by CMake
+mrobot_teleop_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/mrobot_teleop
+
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/opt/ros/melodic/share/nav_msgs/cmake
+
+//The directory containing a CMake configuration file for nodelet.
+nodelet_DIR:PATH=/opt/ros/melodic/share/nodelet/cmake
+
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
 
@@ -446,6 +530,9 @@ r2d2_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/r2d2
 
 //Value Computed by CMake
 r2d2_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/r2d2
+
+//The directory containing a CMake configuration file for realtime_tools.
+realtime_tools_DIR:PATH=/opt/ros/melodic/share/realtime_tools/cmake
 
 //Value Computed by CMake
 robot_setup_tf_BINARY_DIR:STATIC=/home/geek2000/catkin_ws/build/robot_setup_tf
@@ -495,6 +582,9 @@ rpg2020_SOURCE_DIR:STATIC=/home/geek2000/catkin_ws/src/rpg2020
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/melodic/share/sensor_msgs/cmake
 
+//The directory containing a CMake configuration file for smclib.
+smclib_DIR:PATH=/opt/ros/melodic/share/smclib/cmake
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/melodic/share/std_msgs/cmake
 
@@ -521,6 +611,12 @@ tf2_ros_DIR:PATH=/opt/ros/melodic/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for tf.
 tf_DIR:PATH=/opt/ros/melodic/share/tf/cmake
+
+//The directory containing a CMake configuration file for trajectory_msgs.
+trajectory_msgs_DIR:PATH=/opt/ros/melodic/share/trajectory_msgs/cmake
+
+//The directory containing a CMake configuration file for transmission_interface.
+transmission_interface_DIR:PATH=/opt/ros/melodic/share/transmission_interface/cmake
 
 //The directory containing a CMake configuration file for turtlesim.
 turtlesim_DIR:PATH=/opt/ros/melodic/share/turtlesim/cmake
@@ -653,7 +749,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=22
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
